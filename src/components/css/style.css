@@ -42,7 +42,7 @@ a:hover {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: black;
+  background: rgb(68, 5, 54);
   background-size: cover; }
 
 .inner {
@@ -53,10 +53,10 @@ a:hover {
   /* background:url("../images/formsinback.jpg") no-repeat;
   background-size: cover;
   border: 2px solid rgb(106,90,205); */
-  background-color: black;
+  background-color: rgb(68, 5, 54);
     border:2px solid transparent;
     border-radius:5%;
-    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, #fd00da,#19d7f8);
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, #fd00da,rgb(68, 5, 54));
     background-origin: border-box;
     background-clip: padding-box,border-box;
   padding: 77px 99px 87px;
@@ -81,12 +81,12 @@ h3 {
   text-align: center;
   font-size: 20px;
   line-height: 1.8;
-  color: #00ade6
+  color: white
  } 
 
 .inner h3{
   
-  color:black;
+  color:white;
   padding-bottom: 20px;
   
 }
@@ -102,7 +102,7 @@ margin-top: 30px;
 }
   .form-group span {
     font-size: 15px;
-    color: #00ade6;
+    color: white;
     position: absolute;
     top: 11px;
     transition: all .2s ease;
@@ -124,7 +124,7 @@ margin-top: 30px;
 
 .form-control {
   border: none;
-  border-bottom: 2px solid #00ade6;
+  border-bottom: 2px solid white;
   display: block;
   width: 100%;
   height: 43px;
@@ -146,7 +146,7 @@ button {
   border: none;
   width: 162px;
   height: 51px;
-  border: 2px solid rgb(20, 18, 18);
+  border: 2px solid rgb(68, 5, 54);
   margin: auto;
   margin-top: 60px;
   cursor: pointer;
@@ -155,7 +155,7 @@ button {
   justify-content: center;
   padding: 0;
   background: none;
-  color: rgb(20, 18, 18);
+  color: white;
   text-transform: uppercase;
   font-family: "Montserrat-SemiBold";
   -webkit-transform: perspective(1px) translateZ(0);
@@ -183,7 +183,7 @@ button {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #2098D1;
+    background: rgb(68, 5, 54);
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -221,7 +221,7 @@ button {
     -o-box-shadow: none; }
 
   .wrapper {
-    background: #39459b;
-    border :2px solid rgb(106,90,205);} }
+    background: rgb(68, 5, 54);
+    border :2px solid rgb(68, 5, 54);} }
 
 /*# sourceMappingURL=style.css.map */

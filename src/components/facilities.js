@@ -1,22 +1,19 @@
 import React from 'react';
 import './facilities.css';
-import CardItem from './CardItem';
-import Roll from 'react-reveal/Roll';
-import Rotate from 'react-reveal/Rotate';
 
 function Facilities() {
   return (
     <div className='fct'>
-    
-      <div className='fct__container'>
+     
+      
         <div className='fct__wrapper'>
 
-        <Rotate top left>
+       
             <h1>Emergency Medical Services-: In need of someone's for an urgent injection or something else our 
                                 experts are just a call away :)</h1>
-        </Rotate>
-    <Rotate topright>                    
-        <ul>
+       
+                       
+             <ul>
             
                <li>
                   R<sub>x</sub> Trachestomy care 
@@ -87,9 +84,9 @@ function Facilities() {
                </li>
             
         </ul>
-        </Rotate>
-    </div>
+        
       </div>
+      
     </div>
   );
 }

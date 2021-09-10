@@ -8,27 +8,37 @@ import AddressBack from '../addressback';
 import AboutUs from '../aboutus'
 import Commit from '../commit'
 import Form from '../Form'
+import Review from '../Review';
 
-
+//css
+import logo from '../../components/images/whatsapp_logo.png'
 
 
 
 function Home() {
   return (
     <>
-      <HeroSection />
-     
-      <AboutUs/>
+     <div>
+       <div className='w_logo'>
+         {/* <a href="https://wa.me/918006087144">
+           <img style={{position:'fixed',bottom:'40px',right:'0px',height:'60px',width:'60px'}} src={logo} alt="Logo" />
+         </a> */}
+         <HeroSection />
+        
+        <AboutUs/>
 
-      <Form/>
-      <Cards />
-    
-      <Facilities/>
-      <Commit/>
-      <AddressBack />
-      <Footer/>
+        <Form/>
+        <Cards />
       
+        {/* <Facilities/> */}
+        <Commit/>
+        <Review/>
+        <AddressBack />
+        <Footer/>
+        </div>
+        
       
+      </div>
     </>
   );
 }

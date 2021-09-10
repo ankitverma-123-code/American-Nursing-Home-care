@@ -9,21 +9,21 @@ import doctorhomevisit from "./doctor-home-visit.jpg"
 import './Cards.css';
 import CardItem from './CardItem';
 import Roll from 'react-reveal/Roll';
-import Wobble from 'react-reveal/Wobble';
+
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out our services</h1>
+      <h1 style={{color:"white"}}>Check out our services</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-          <Roll left>
+            <Roll left>
             <CardItem
               src={icu}
               text='Icu Care'
-              
-              path='/services'
+               
+              path='/services' 
               
             />
              </Roll>

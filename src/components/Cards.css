@@ -1,23 +1,24 @@
 .cards {
   padding: 4rem;
-  background: rgb(134, 113, 141);
+  background: rgb(68, 5, 54);
 }
 
 .cards>h1 {
   text-align: center;
   font-family: 'Playfair Display', serif;
-  background: rgb(142, 90, 158);
-  font-size: 40px;
+  background: rgb(204, 83, 150);
+  font-size: 35px;
   border-radius: 50%;
   height: 140px;
   padding-top: 10px;
+  
 }
 
 
 .cards__container {
   display: flex;
   flex-flow: column;
-  align-items: center;
+  align-items: center; 
   max-width: 1120px;
   width: 100%;
   margin: 0 auto;
@@ -37,7 +38,7 @@
 .cards__item {
   display: flex;
   flex: 1;
-  margin: 20px 50px 10px 10px ;
+  margin: 10px 10px 10px 10px ;
   border-radius: 10px;
 }
 
@@ -55,7 +56,7 @@
 
 .cards__item__pic-wrap {
   position:relative;
-    width:400px;
+    width:500px;
     margin:0 auto;
     background-color: #ccffff;
     

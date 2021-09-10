@@ -2,6 +2,9 @@
 
 import "./css/style.css"
 import React,{useState} from "react";
+import './form.css';
+
+
 
 function Form() {
   const [data,setData]=useState(

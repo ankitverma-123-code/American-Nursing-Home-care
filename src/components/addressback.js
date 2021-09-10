@@ -2,8 +2,7 @@ import React from 'react';
 import './addressback.css';
 import Zoom from 'react-reveal/Zoom';
 
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
+
 
 function AddressBack() {
   return (
@@ -11,7 +10,7 @@ function AddressBack() {
       
       <Zoom top>
       <div className='address-ad'> 
-      <p>Mussoorie diversion road,<br/>malsi po sinola behind hotel forest avenue Dehradun <br/>248009</p>
+      <p >Mussoorie diversion road,<br/>malsi po sinola behind hotel forest avenue Dehradun <br/>248009</p>
         
       </div>
       </Zoom>

@@ -3,6 +3,10 @@ import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import Image from './back.jpeg'
+import LocationOnIcon from '@material-ui/icons/LocationOn';
+import CallIcon from '@material-ui/icons/Call';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import AvTimerIcon from '@material-ui/icons/AvTimer';
 
 function Footer() {
   return (
@@ -13,14 +17,22 @@ function Footer() {
         <div className='footer-link-wrapper'>
 
           <div class='footer-link-items'>
-            <h4>CONTACT US</h4>
-            <Link to='/ '> </Link> 
-            <p style={{color: "white"}}>Mussoorie diversion road,
-malsi po sinola behind hotel forest avenue Dehradun,248003 </p>
-              <Link to='/ '> </Link> 
-            <Link to='/ '>mob no - 8006087144</Link>
-            <Link to='/ '>mob no - 8279814885</Link> 
-         
+            <div>
+                 
+                <h4 style={{color:"white",margin:'10px',fontSize:'35px'}}> Contact Us</h4>
+            </div>
+           
+           <div>
+            <p style={{color: "white",margin:'10px'}}><LocationOnIcon fontSize="large"/> Malsi po sinola, Dehradun ,248003 </p>
+           </div>
+            <p style={{color:"white",margin:"10px"}}><CallIcon fontSize="large"/> 8006087144 </p>
+           
+           <div>
+              <p style={{color: "white",margin:'10px'}}><MailOutlineIcon fontSize="large"/> americanhomecarenursing@gmail.com </p>
+           </div>
+           <div>
+              <p style={{color: "white",margin:'10px'}}><AvTimerIcon fontSize="large"/> 24x7 Hours open </p>
+           </div>
            
           </div>
         </div>
@@ -52,16 +64,18 @@ malsi po sinola behind hotel forest avenue Dehradun,248003 </p>
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <a  href="https://www.facebook.com/American-home-care-nursing-service-102652621779061"><i class='fab fa-instagram' /></a>
             </Link>
+
             <Link
               class='social-icon-link youtube'
-              to='/'
+              to='https://youtube.com/channel/UCJV3OjEMHDusQGZYVBA9KRA'
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <a  href="https://youtube.com/channel/UCJV3OjEMHDusQGZYVBA9KRA"><i class='fab fa-youtube' /></a>
             </Link>
+
             <Link
               class='social-icon-link twitter'
               to='/'
@@ -72,11 +86,11 @@ malsi po sinola behind hotel forest avenue Dehradun,248003 </p>
             </Link>
             <Link
               class='social-icon-link twitter'
-              to='/'
+              to='https://www.linkedin.com/in/american-home-health-service-elderly-patient-care-in-dehradun-b2577121a'
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+               <a  href="https://www.linkedin.com/in/american-home-health-service-elderly-patient-care-in-dehradun-b2577121a"><i class='fab fa-linkedin' /></a>
             </Link>
           </div>
         </div>

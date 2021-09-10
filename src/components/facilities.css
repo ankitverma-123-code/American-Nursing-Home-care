@@ -1,31 +1,29 @@
+*{
+  padding: 0px;
+}
 .fct {
-  padding: 1rem;
-  background: rgb(106, 88, 189);
-}
-
-.fct__container {
-  display: flex;
-  flex-flow: column;
-  
-  max-width: 1120px;
-  width: 100%;
-  margin-left: 10px;
+  padding: 0px;
  
+
+}
+.fct__wrapper{
+  margin: 20px;
 }
 
-.fct__wrapper {
-  position: relative;
-  margin: 0px 0 0px;
-}
+
 .fct__wrapper>h1
 {
   font-family: 'Playfair Display', serif;
-  margin-bottom: 10px;
-  
+ 
+  color: white;
+ 
+}
+.fct__wrapper>li
+{
+  color: white;
 }
 
-
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 1024px) {
   .fct__items {
     display: flex;
   }
@@ -35,4 +33,4 @@
   .fct__item {
     margin-bottom: 2rem;
   }
-}
+} */
